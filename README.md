@@ -24,8 +24,38 @@ _Get started developping robotics applications using ros2._
 ## Step 1: Install ROS2 Humble
 
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**1.1: Download and Install ROS 2 Humble**
+**1.2:  Configuration and setup of the developpement environnement**
+**1.3: Extra useful app and tools**
+
+**1.1: Download and Install ROS 2 Humble**: 
+Download and install Ubuntu 22.04 image:
+https://cdimage.ubuntu.com/jammy/daily-live/current/
+
+Choose desktop image file based on your machine architecture: amd vs arm
+<p> Set locale: <p>
+locale  # check for UTF-8
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+locale  # verify settings![image](https://github.com/user-attachments/assets/721d8ee6-3d62-4dc7-9737-78d8485d7ee9)
+
+<p> Setup sources:</p>
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+
+<p> Install ROS 2 packages </p>
+sudo apt update
+sudo apt upgrade
+sudo apt install ros-humble-desktop
+sudo apt install ros-dev-tools	
+![image](https://github.com/user-attachments/assets/911db42f-457e-4b47-90d9-236270a95ae0)
+
+
 
 **What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
 
