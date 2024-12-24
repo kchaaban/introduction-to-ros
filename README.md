@@ -64,10 +64,8 @@ source ~/.bashrc # to execute one time <br>
 **1.3: Extra useful app and tools**
 
 <p> <b>Visual code: </b> </p>
-<br>
 Download .deb package of visual code at (Be careful to choose the correct file depending on your architecture arm, amd, …): <br>
 https://code.visualstudio.com/Download  <br>
- <br>
 Install visual code code:  <br>
 sudo dpkg -i ~/path/to/code_1.XXX.deb  <br>
  <br>
