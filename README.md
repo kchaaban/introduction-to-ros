@@ -60,8 +60,8 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc <br>
 source ~/.bashrc # to execute one time 
 <br>
 
-<br>
 **1.3: Extra useful app and tools**
+
 <br>
 <p> <b>Visual code: </b> </p>
 <br>
