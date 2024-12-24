@@ -78,6 +78,14 @@ code .   <br>
 It is recommended to add visual code to your favourites as seen in the figure here  <br>
 ![image](https://github.com/user-attachments/assets/b114fba3-3577-44ab-9bfe-5083d30fe607)
 
+<p> <b>Terminator: </b> </p>
+sudo apt-get update <br>
+sudo apt-get install terminator <br>
+
+You can split it horizontally or vertically by clicking right on the terminal <br>
+
+![image](https://github.com/user-attachments/assets/cf86df3c-9e73-4177-81d4-20035f5c99c7)
+
 <footer>
 
 <!--
