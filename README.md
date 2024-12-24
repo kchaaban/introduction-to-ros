@@ -69,9 +69,9 @@ https://code.visualstudio.com/Download  <br>
 Install visual code code:  <br>
 sudo dpkg -i ~/path/to/code_1.XXX.deb  <br>
  <br>
-In case dpkg complains about missing dependencies, run:
-sudo apt -f install
- <br>
+In case dpkg complains about missing dependencies, run: <br>
+sudo apt -f install <br>
+ 
 To lunch visual code, run the command:  <br>
 code .   <br>
  <br>
