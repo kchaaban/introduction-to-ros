@@ -32,8 +32,9 @@ _Get started developping robotics applications using ros2._
 Download and install Ubuntu 22.04 image:<br>
 https://cdimage.ubuntu.com/jammy/daily-live/current/
 
-Choose desktop image file based on your machine architecture: amd vs arm
-<p> Set locale: <p>
+Choose desktop image file based on your machine architecture: amd vs arm <br>
+
+<p> <em> Set locale: </em> <p> 
 locale  # check for UTF-8 <br>
 sudo apt update && sudo apt install locales <br>
 sudo locale-gen en_US en_US.UTF-8<br>
