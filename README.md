@@ -60,7 +60,22 @@ Source ~/.bashrc # to execute one time <br>
 
 
 **1.3: Extra useful app and tools**<br>
-
+<p> Download visual code: </p>
+<br>
+Download .deb package of visual code at (Be careful to choose the correct file depending on your architecture arm, amd, …): <br>
+https://code.visualstudio.com/Download  <br>
+ <br>
+Install visual code code:  <br>
+sudo dpkg -i ~/path/to/code_1.XXX.deb  <br>
+ <br>
+In case dpkg complains about missing dependencies, run:
+sudo apt -f install
+ <br>
+To lunch visual code, run the command:  <br>
+code .   <br>
+ <br>
+It is recommended to add visual code to your favourites as seen in the figure here  <br>
+![image](https://github.com/user-attachments/assets/b114fba3-3577-44ab-9bfe-5083d30fe607)
 
 <footer>
 
