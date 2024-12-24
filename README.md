@@ -57,11 +57,12 @@ sudo apt install ros-dev-tools	<br>
 <br>
 **1.2: Configuration and setup of the developpement environnement**<br>
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc <br>
-Source ~/.bashrc # to execute one time 
+source ~/.bashrc # to execute one time 
 <br>
 
+<br>
 **1.3: Extra useful app and tools**
-
+<br>
 <p> <b>Visual code: </b> </p>
 <br>
 Download .deb package of visual code at (Be careful to choose the correct file depending on your architecture arm, amd, …): <br>
