@@ -54,8 +54,6 @@ sudo apt install ros-humble-desktop <br>
 sudo apt install ros-dev-tools	<br>
 
 **1.2: Configuration and setup of the developpement environnement**<br>
-# Replace ".bash" with your shell if you're not using bash <br>
-# Possible values are: setup.bash, setup.sh, setup.zsh <br>
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc <br>
 Source ~/.bashrc # to execute one time <br>
 
